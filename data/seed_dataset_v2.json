@@ -1,0 +1,490 @@
+[
+  {
+    "text": "800123456",
+    "label": "NIT"
+  },
+  {
+    "text": "Clase Documento",
+    "label": "TEXTO"
+  },
+  {
+    "text": "3.047.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Documento Fuente 4,9111E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "1",
+    "label": "REPETICION"
+  },
+  {
+    "text": "RECIBO 4911100000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "2026-03-05",
+    "label": "FECHA"
+  },
+  {
+    "text": "2024",
+    "label": "ANIO"
+  },
+  {
+    "text": "EMPRESA ABC SAS",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "ALPOPULAR S.A.",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "95",
+    "label": "VALOR"
+  },
+  {
+    "text": "Estado INICIAL",
+    "label": "ESTADO"
+  },
+  {
+    "text": "REP 1",
+    "label": "REPETICION"
+  },
+  {
+    "text": "123456789",
+    "label": "TDJ"
+  },
+  {
+    "text": "4911100000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "765432109",
+    "label": "TDJ"
+  },
+  {
+    "text": "7/8/26",
+    "label": "FECHA"
+  },
+  {
+    "text": "2006",
+    "label": "ANIO"
+  },
+  {
+    "text": "01-01-26",
+    "label": "FECHA"
+  },
+  {
+    "text": "2.093.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "901000999",
+    "label": "NIT"
+  },
+  {
+    "text": "Repetición 1",
+    "label": "REPETICION"
+  },
+  {
+    "text": "$ 4.137.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "PENDIENTE",
+    "label": "ESTADO"
+  },
+  {
+    "text": "900100200",
+    "label": "NIT"
+  },
+  {
+    "text": "800197268-5",
+    "label": "NIT"
+  },
+  {
+    "text": "2025",
+    "label": "ANIO"
+  },
+  {
+    "text": "654.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "4.9200E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "Año gravable 2026",
+    "label": "ANIO"
+  },
+  {
+    "text": "4931234567890",
+    "label": "RECIBO"
+  },
+  {
+    "text": "PAGADO",
+    "label": "ESTADO"
+  },
+  {
+    "text": "TÍTULO DE DEPÓSITO JUDICIAL 987654321",
+    "label": "TDJ"
+  },
+  {
+    "text": "04/04/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "VÁLIDA/ACTIVA",
+    "label": "ESTADO"
+  },
+  {
+    "text": "TDJ 456789012",
+    "label": "TDJ"
+  },
+  {
+    "text": "VALIDA/ACTIVA",
+    "label": "ESTADO"
+  },
+  {
+    "text": "456789012",
+    "label": "TDJ"
+  },
+  {
+    "text": "INVERSIONES DEL PACIFICO S A S",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "TDJ: 987654321",
+    "label": "TDJ"
+  },
+  {
+    "text": "1.482.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "03/04/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "3.579.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "2023",
+    "label": "ANIO"
+  },
+  {
+    "text": "4900000000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "26/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "$95",
+    "label": "VALOR"
+  },
+  {
+    "text": "4,9111E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "TITULO DE DEPOSITO JUDICIAL 456789012",
+    "label": "TDJ"
+  },
+  {
+    "text": "COMERCIALIZADORA COLOMBIANA LTDA",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "Documento Fuente 4911100000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "10.924.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "900000001",
+    "label": "NIT"
+  },
+  {
+    "text": "15.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "PERIODO 2025",
+    "label": "ANIO"
+  },
+  {
+    "text": "INICIAL ",
+    "label": "ESTADO"
+  },
+  {
+    "text": "4911111111111",
+    "label": "RECIBO"
+  },
+  {
+    "text": "31/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "Fecha Presentacion 5/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "Título depósito judicial No 100200300",
+    "label": "TDJ"
+  },
+  {
+    "text": "890900123",
+    "label": "NIT"
+  },
+  {
+    "text": "COMERCIALIZADORA NACIONAL S A",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "2019",
+    "label": "ANIO"
+  },
+  {
+    "text": "4.9111E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "21/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "TDJ 123456789",
+    "label": "TDJ"
+  },
+  {
+    "text": "899999999",
+    "label": "NIT"
+  },
+  {
+    "text": "2021",
+    "label": "ANIO"
+  },
+  {
+    "text": "NIT 890900123",
+    "label": "NIT"
+  },
+  {
+    "text": "1000",
+    "label": "VALOR"
+  },
+  {
+    "text": "4.137.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "901234567-8",
+    "label": "NIT"
+  },
+  {
+    "text": "987654321",
+    "label": "TDJ"
+  },
+  {
+    "text": "05/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "18/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "NIT: 901234567",
+    "label": "NIT"
+  },
+  {
+    "text": "30/03/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "CONSTRUCCIONES DEL VALLE SAS",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "Recibo Oficial de Pago",
+    "label": "TEXTO"
+  },
+  {
+    "text": "Nombre Formato",
+    "label": "TEXTO"
+  },
+  {
+    "text": "SERVICIOS INTEGRALES DE OCCIDENTE S.A.S.",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "4911200000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "3",
+    "label": "REPETICION"
+  },
+  {
+    "text": "01/01/2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "INDUSTRIAS DEL PACIFICO LTDA",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "4920000000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "800197268",
+    "label": "NIT"
+  },
+  {
+    "text": "No. Documento Fuente",
+    "label": "TEXTO"
+  },
+  {
+    "text": "SOLUCIONES EMPRESARIALES DE COLOMBIA SAS",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "01 01 2026",
+    "label": "FECHA"
+  },
+  {
+    "text": "Documento Fuente 3004700000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "05-03-26",
+    "label": "FECHA"
+  },
+  {
+    "text": "Impuesto sobre las Ventas -IVA AG 2019 y siguientes",
+    "label": "TEXTO"
+  },
+  {
+    "text": "Repetición: 2",
+    "label": "REPETICION"
+  },
+  {
+    "text": "AG 2019",
+    "label": "ANIO"
+  },
+  {
+    "text": "INICIAL",
+    "label": "ESTADO"
+  },
+  {
+    "text": "4,9123E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "10.280.663",
+    "label": "VALOR"
+  },
+  {
+    "text": "SERVICIOS LOGISTICOS COLOMBIA SAS",
+    "label": "RAZON_SOCIAL"
+  },
+  {
+    "text": "2022",
+    "label": "ANIO"
+  },
+  {
+    "text": "2.294.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Documento Fuente 4911101234567",
+    "label": "RECIBO"
+  },
+  {
+    "text": "4,9312E+12",
+    "label": "RECIBO"
+  },
+  {
+    "text": "Recibo Oficial de Pago Impuestos Nacionales AG 2006 y siguientes",
+    "label": "TEXTO"
+  },
+  {
+    "text": "Valor Pagado 4.137.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "901234567",
+    "label": "NIT"
+  },
+  {
+    "text": "31 03 26",
+    "label": "FECHA"
+  },
+  {
+    "text": "2020",
+    "label": "ANIO"
+  },
+  {
+    "text": "NIT 900123456",
+    "label": "NIT"
+  },
+  {
+    "text": "1.500.000",
+    "label": "VALOR"
+  },
+  {
+    "text": "Impuesto sobre las Ventas IVA",
+    "label": "TEXTO"
+  },
+  {
+    "text": "2",
+    "label": "REPETICION"
+  },
+  {
+    "text": "NIT 800197268",
+    "label": "NIT"
+  },
+  {
+    "text": "TDJ No 123456789",
+    "label": "TDJ"
+  },
+  {
+    "text": "4911101234567",
+    "label": "RECIBO"
+  },
+  {
+    "text": "No Documento Fuente 4911100000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "Recibo No 4911200000000",
+    "label": "RECIBO"
+  },
+  {
+    "text": "100200300",
+    "label": "TDJ"
+  },
+  {
+    "text": "CANCELADO",
+    "label": "ESTADO"
+  },
+  {
+    "text": "900123456",
+    "label": "NIT"
+  },
+  {
+    "text": "IDENTIFICACION 900123456",
+    "label": "NIT"
+  },
+  {
+    "text": "2026",
+    "label": "ANIO"
+  }
+]

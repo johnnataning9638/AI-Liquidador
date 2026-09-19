@@ -1,0 +1,26 @@
+{
+  "version": "0.6.2",
+  "structured_tests": "STRUCTURED TESTS OK; STRUCTURED TESTS V0.5 OK",
+  "regression_tests": "STRUCTURED REGRESSION TESTS V0.6.2 OK",
+  "payment_tests": "PAYMENT ADAPTER TESTS V0.6.2 OK",
+  "muisca_records": 8,
+  "first_record": {
+    "recibo_no": "4911100000000",
+    "fecha_pago": "2026-03-05",
+    "valor_pago": 4137000,
+    "tipo": "RECIBO"
+  },
+  "seventh_record": {
+    "recibo_no": "3004700000000",
+    "fecha_pago": "2026-04-03",
+    "valor_pago": null,
+    "tipo": "RECIBO"
+  },
+  "tdj_pipeline": {
+    "tdj_no": "123456789",
+    "recibo_no": "",
+    "fecha_pago": "2026-04-10",
+    "valor_pago": 157,
+    "tipo": "TDJ"
+  }
+}

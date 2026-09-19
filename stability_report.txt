@@ -1,0 +1,21 @@
+DIAN AI ENGINE v0.6.6 — REPORTE DE ESTABILIZACION
+
+Pruebas ejecutadas:
+- stability_benchmark.py: OK
+- payment_adapter_tests.py: OK
+- obligation_adapter_tests.py: OK
+- structured_regression_tests.py: OK
+- payment_muisca_regression.py: OK (con PYTHONPATH=src)
+- case_integration_tests.py: OK (con PYTHONPATH=src)
+- JavaScript syntax: OK para app.js y ai-bridge.js
+
+Controles incorporados:
+- confianza estructural por registro
+- anomalías estructurales
+- prioridad de datos determinísticos
+- panel de estado IA
+- contrato de API 1.0
+- límite básico de solicitudes POST
+- benchmark reproducible
+
+Nota: structured_tests.py histórico contiene una expectativa antigua que no se usa como criterio de esta fase; el benchmark de estabilidad es el criterio vigente.

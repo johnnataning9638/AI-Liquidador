@@ -1,0 +1,45 @@
+{
+  "overall_accuracy": 0.8666666746139526,
+  "by_class": {
+    "ANIO": {
+      "n_validation": 3,
+      "accuracy": 1.0
+    },
+    "ESTADO": {
+      "n_validation": 2,
+      "accuracy": 0.5
+    },
+    "FECHA": {
+      "n_validation": 4,
+      "accuracy": 1.0
+    },
+    "NIT": {
+      "n_validation": 4,
+      "accuracy": 1.0
+    },
+    "RAZON_SOCIAL": {
+      "n_validation": 2,
+      "accuracy": 1.0
+    },
+    "RECIBO": {
+      "n_validation": 4,
+      "accuracy": 1.0
+    },
+    "REPETICION": {
+      "n_validation": 2,
+      "accuracy": 0.0
+    },
+    "TDJ": {
+      "n_validation": 3,
+      "accuracy": 0.6666666865348816
+    },
+    "TEXTO": {
+      "n_validation": 2,
+      "accuracy": 1.0
+    },
+    "VALOR": {
+      "n_validation": 4,
+      "accuracy": 1.0
+    }
+  }
+}

@@ -1,0 +1,26 @@
+900123456 => NIT | 0.99 | deterministic
+800197268 => NIT | 0.99 | deterministic
+901234567 => NIT | 0.99 | deterministic
+890900123 => NIT | 0.99 | deterministic
+900123456-7 => NIT | 0.99 | deterministic
+4,9111E+12 => RECIBO | 0.995 | deterministic
+3,0047E+12 => RECIBO | 0.995 | deterministic
+Documento Fuente 4911100000000 => RECIBO | 1.0 | deterministic
+TDJ 123456789 => TDJ | 1.0 | deterministic
+Título de depósito judicial 456789012 => TDJ | 1.0 | deterministic
+31/03/2026 => FECHA | 1.0 | deterministic
+01 01 26 => FECHA | 1.0 | deterministic
+4.137.000 => VALOR | 0.99 | deterministic
+$95 => VALOR | 0.99 | deterministic
+BENCHMARK OK
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 720, in _warm_feature_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/spreadsheet_warmup.py", line 704, in _warm_collaboration_flows
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/generated/interface/models.py", line 32317, in hydrate_crdt_from_proto
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/remote.py", line 749, in __call__
+  File "/tmp/tmp.L2TH2Y5coc/artifact_tool_v2-2.8.22/artifact_tool/rpc/client.py", line 150, in call
+artifact_tool.rpc.client.RemoteError: hydrateCrdtFromProto requires an empty collaborative document.

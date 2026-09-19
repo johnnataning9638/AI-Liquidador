@@ -1,0 +1,7 @@
+{
+  "version": "0.6.3",
+  "api_capability": "interpret_obligation",
+  "obligation_tests": "OBLIGATION ADAPTER TESTS V0.6.3 OK",
+  "payment_tests": "PAYMENT ADAPTER TESTS V0.6.3 OK",
+  "safety_rule": "The web Liquidador blocks deterministic-vs-AI discrepancies before applying obligation data."
+}
