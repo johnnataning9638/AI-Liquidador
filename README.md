@@ -1,3 +1,16 @@
+# DIAN AI ENGINE — v0.7.0
+
+Aprendizaje continuo controlado sobre la base estable v0.6.6.
+
+- El API conserva la interpretación y las reglas determinísticas existentes.
+- `/feedback` recibe únicamente ejemplos de campos confirmados/corregidos.
+- Los ejemplos persistentes se almacenan en Supabase.
+- GitHub Actions puede reentrenar automáticamente de forma programada.
+- Un nuevo modelo solo se publica si supera al modelo actual en un conjunto de validación independiente.
+- Las reglas tributarias y el motor de liquidación quedan fuera del aprendizaje neuronal.
+
+Consulta `CONTINUOUS_LEARNING_SETUP.md` para la configuración.
+
 # DIAN AI ENGINE — v0.6.3
 
 Segunda versión del motor de IA.
@@ -227,3 +240,11 @@ Se agrega `POST /interpret/obligation` para validar con IA DIAN los campos NIT, 
 - Benchmark de regresion en `tests/stability_benchmark.py`.
 - Contrato del API versionado y limite basico de solicitudes POST.
 - La confianza nunca decide impuestos, intereses o sanciones.
+
+
+## v0.7.1 - aprendizaje continuo y depuración
+
+Los ejemplos confirmados se procesan solo una vez. Después de aceptar un nuevo modelo,
+se marcan con `processed_at` y `training_run_id`. Se conserva una memoria pequeña de
+hasta 10 ejemplos procesados por etiqueta y se eliminan los más antiguos para evitar
+crecimiento indefinido de Supabase.

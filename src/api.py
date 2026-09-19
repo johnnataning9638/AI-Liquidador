@@ -12,8 +12,9 @@ import time
 from parser import classify
 from payment_adapter import interpret_payments
 from obligation_adapter import interpret_obligation
+from learning import save_feedback
 
-ENGINE_VERSION = "0.6.6"
+ENGINE_VERSION = "0.7.0"
 
 app = FastAPI(title="DIAN AI Engine", version=ENGINE_VERSION)
 
@@ -47,6 +48,15 @@ class Item(BaseModel):
 class PaymentInterpretation(BaseModel):
     text: str = Field(min_length=1, max_length=1_000_000)
 
+class FeedbackExample(BaseModel):
+    text: str = Field(min_length=1, max_length=5000)
+    label: str = Field(min_length=1, max_length=40)
+    source: str = Field(default="liquidador", max_length=80)
+
+class FeedbackBatch(BaseModel):
+    confirmed: bool = True
+    examples: list[FeedbackExample] = Field(min_length=1, max_length=50)
+
 class CaseInterpretation(BaseModel):
     obligation_text: str = Field(default="", max_length=1_000_000)
     payments_text: str = Field(default="", max_length=1_000_000)
@@ -64,7 +74,7 @@ def health():
         "ok": True,
         "service": "dian-ai-engine",
         "version": ENGINE_VERSION,
-        "capabilities": ["classify", "interpret_payments", "interpret_obligation", "interpret_case"],
+        "capabilities": ["classify", "interpret_payments", "interpret_obligation", "interpret_case", "feedback"],
         "stability": {"contract": "1.0", "max_input_chars": 1_000_000, "rate_limit_per_minute": _REQUEST_MAX},
     }
 
@@ -98,6 +108,17 @@ def interpret_obligation_data(item: Item) -> Dict[str, Any]:
         }
     except Exception as exc:
         raise HTTPException(status_code=422, detail=f"No fue posible interpretar la obligación: {exc}")
+
+
+@app.post("/feedback")
+def learning_feedback(batch: FeedbackBatch):
+    if not batch.confirmed:
+        return {"ok": True, "accepted": 0, "message": "Ejemplos no confirmados no se almacenan."}
+    try:
+        rows = save_feedback([e.model_dump() for e in batch.examples])
+        return {"ok": True, "accepted": len(rows), "service": "dian-ai-engine", "version": ENGINE_VERSION}
+    except Exception as exc:
+        raise HTTPException(status_code=503, detail=f"No fue posible guardar el aprendizaje: {exc}")
 
 
 @app.post("/interpret/case")
