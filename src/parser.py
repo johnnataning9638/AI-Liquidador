@@ -4,7 +4,7 @@ import re
 from predict import predict
 from learning import find_memory
 
-DATE_RE = re.compile(r"^\s*(\d{1,2})[\\/\\-. ](\d{1,2})[\\/\\-. ](\d{2,4})\s*$")
+DATE_RE = re.compile(r"^\s*(\d{1,2})[./ -](\d{1,2})[./ -](\d{2,4})\s*$")
 SCI_RE = re.compile(r"^\s*[\d\.,]+[Ee][+\-]?\d+\s*$")
 NIT_PLAIN_RE = re.compile(r"^\s*[89]\d{8}\s*$")
 NIT_WITH_DV_RE = re.compile(r"^\s*[89]\d{8}\s*[-–]\s*\d\s*$")
