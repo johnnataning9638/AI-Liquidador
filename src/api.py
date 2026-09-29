@@ -14,7 +14,7 @@ from payment_adapter import interpret_payments
 from obligation_adapter import interpret_obligation
 from learning import save_feedback
 
-ENGINE_VERSION = "0.7.0"
+ENGINE_VERSION = "0.7.1"
 
 app = FastAPI(title="DIAN AI Engine", version=ENGINE_VERSION)
 
@@ -75,7 +75,8 @@ def health():
         "service": "dian-ai-engine",
         "version": ENGINE_VERSION,
         "capabilities": ["classify", "interpret_payments", "interpret_obligation", "interpret_case", "feedback"],
-        "stability": {"contract": "1.0", "max_input_chars": 1_000_000, "rate_limit_per_minute": _REQUEST_MAX},
+        "model": {"lazy_loaded": True},
+        "stability": {"contract": "1.1", "max_input_chars": 1_000_000, "rate_limit_per_minute": _REQUEST_MAX},
     }
 
 @app.post("/classify")
