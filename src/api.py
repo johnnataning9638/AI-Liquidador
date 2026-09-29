@@ -12,7 +12,7 @@ import time
 from parser import classify
 from payment_adapter import interpret_payments
 from obligation_adapter import interpret_obligation
-from learning import save_feedback
+from learning import save_feedback, find_memory
 
 ENGINE_VERSION = "0.7.1"
 
@@ -82,6 +82,10 @@ def health():
 @app.post("/classify")
 def classify_item(item: Item):
     return classify(item.text)
+
+@app.post("/memory/lookup")
+def memory_lookup(item: Item):
+    return {"ok": True, "memory": find_memory(item.text, min_similarity=0.94, limit=3)}
 
 @app.post("/interpret/payments")
 def interpret_payment_data(item: PaymentInterpretation) -> Dict[str, Any]:
