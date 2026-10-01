@@ -1,8 +1,8 @@
 {
   "mode": "continuous_learning",
-  "feedback_examples": 87,
+  "feedback_examples": 146,
   "candidate_holdout_accuracy": 1.0,
-  "baseline_holdout_accuracy": 0.9444444179534912,
+  "baseline_holdout_accuracy": 0.8999999761581421,
   "minimum_required_gain": 0.01,
   "accepted": true
 }
