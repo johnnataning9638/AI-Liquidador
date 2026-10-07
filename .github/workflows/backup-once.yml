@@ -1,0 +1,20 @@
+name: Backup temporal
+on:
+  push:
+    branches: [backup-20261007]
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Remove temporary backup files
+        run: rm -f .github/workflows/backup-once.yml tests/.backup-trigger
+      - name: Package project
+        run: zip -r /tmp/AI-Liquidador-backup.zip . -x './.git/*'
+      - name: Upload project ZIP
+        uses: actions/upload-artifact@v4
+        with:
+          name: AI-Liquidador-backup
+          path: /tmp/AI-Liquidador-backup.zip
+          retention-days: 7
